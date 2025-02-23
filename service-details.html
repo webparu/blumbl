@@ -4,18 +4,23 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Service Details - HeroBiz Bootstrap Template</title>
+  <title>BLUMBL</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./assets/fonts/bpg-nino-elite-exp-caps/css/bpg-nino-elite-exp-caps.min.css">
+  <link rel="stylesheet" href="./assets/fonts/bpg-nino-mtavruli-bold/css/bpg-nino-mtavruli-bold.min.css">
+  <link rel="stylesheet" href="./assets/fonts/bpg-nino-elite/css/bpg-nino-elite.min.css">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -28,36 +33,28 @@
   <link href="assets/css/main.css" rel="stylesheet">
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: HeroBiz
-  * Template URL: https://bootstrapmade.com/herobiz-bootstrap-business-template/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body class="service-details-page">
 
-  <header id="header" class="header d-flex align-items-center sticky-top">
-    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+  <header id="header" class="header serHeader d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
-      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">HeroBiz</h1>
-        <span>.</span>
+        <img src="assets/img/logo-icon.png" alt="">
+        <!-- <h1 class="sitename">Dewi</h1> -->
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero">Home<br></a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li><a href="#hero" class="active">მთავარი</a></li>
+          <li><a href="#about">ჩვენს შესახებ</a></li>
+          <li><a href="#services">სერვისები</a></li>
+          <li><a href="#portfolio">პორთფოლიო</a></li>
+          <li><a href="#team">გუნდი</a></li>
+          <li><a href="#">ბლოგი</a></li>
+          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -73,13 +70,13 @@
               <li><a href="#">Dropdown 3</a></li>
               <li><a href="#">Dropdown 4</a></li>
             </ul>
-          </li>
-          <li><a href="#contact">Contact</a></li>
+          </li> -->
+          <li><a href="#contact">კონტაქტი</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="index.html#about">Get Started</a>
+      <a class="cta-btn" href="index.html#contact">შეუკვეთე</a>
 
     </div>
   </header>
@@ -87,13 +84,13 @@
   <main class="main">
 
     <!-- Page Title -->
-    <div class="page-title">
-      <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Service Details</h1>
+    <div class="page-title light-background">
+      <div class="container">
+        <h1>სერვისები</h1>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">Service Details</li>
+            <li><a href="index.html">მთავარი</a></li>
+            <li class="current">ჩვენს მიერ შეთავაზებული სერვისები</li>
           </ol>
         </nav>
       </div>
@@ -103,44 +100,238 @@
     <section id="service-details" class="service-details section">
 
       <div class="container">
+        <div class="row gy-5">
 
-        <div class="row gy-4">
-
+          <!-- Sidebar with services list -->
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="services-list">
-              <a href="#" class="active">Web Design</a>
-              <a href="#">Software Development</a>
-              <a href="#">Product Management</a>
-              <a href="#">Graphic Design</a>
-              <a href="#">Marketing</a>
-            </div>
+            <div class="service-box">
+              <h4>სერვისები</h4>
 
-            <h4>Enim qui eos rerum in delectus</h4>
-            <p>Nam voluptatem quasi numquam quas fugiat ex temporibus quo est. Quia aut quam quod facere ut non occaecati ut aut. Nesciunt mollitia illum tempore corrupti sed eum reiciendis. Maxime modi rerum.</p>
+              <!-- Bootstrap Tabs Navigation -->
+              <nav>
+                <div class="nav nav-tabs services-list" id="service-tabs" role="tablist">
+                  <a class="nav-link active" id="tab-branding" data-bs-toggle="tab" href="#branding" role="tab">
+                    <i class="bi bi-arrow-right-circle"></i><span>ბრენდინგი</span>
+                  </a>
+                  <a class="nav-link" id="tab-social-media" data-bs-toggle="tab" href="#social-media" role="tab">
+                    <i class="bi bi-arrow-right-circle"></i><span>სოციალური მედია მარკეტინგი</span>
+                  </a>
+                  <a class="nav-link" id="tab-web" data-bs-toggle="tab" href="#web-design" role="tab">
+                    <i class="bi bi-arrow-right-circle"></i><span>ვებსაიტების დამზადება</span>
+                  </a>
+                  <a class="nav-link" id="tab-graphic" data-bs-toggle="tab" href="#graphic-design" role="tab">
+                    <i class="bi bi-arrow-right-circle"></i><span>გრაფიკული დიზაინი</span>
+                  </a>
+                  <a class="nav-link" id="tab-events" data-bs-toggle="tab" href="#events" role="tab">
+                    <i class="bi bi-arrow-right-circle"></i><span>ივენთების ორგანიზება</span>
+                  </a>
+                </div>
+              </nav>
+
+
+            </div><!-- End Services List -->
+
+            <div class="service-box">
+              <h4>გადმოიწერე</h4>
+              <div class="download-catalog">
+                <a href="#"><i class="bi bi-filetype-pdf"></i><span>შეთავაზება PDF</span></a>
+                <a href="#"><i class="bi bi-file-earmark-word"></i><span>კატალოგი DOC</span></a>
+              </div>
+            </div><!-- End Download Catalog -->
+
+            <div class="help-box d-flex flex-column justify-content-center align-items-center">
+              <i class="bi bi-headset help-icon"></i>
+              <h4>ანა გელოდებათ</h4>
+              <p class="d-flex align-items-center mt-2 mb-0">
+                <i class="bi bi-telephone me-2"></i>
+                <span>
+                  <a class="contact-number" href="tel:+995568985737">+995 568 985 737</a>
+                </span>
+              </p>
+              <p class="d-flex align-items-center mt-1 mb-0">
+                <i class="bi bi-envelope me-2"></i>
+                <a href="mailto:contact@blumbl.ge">contact@blumbl.ge</a>
+              </p>
+            </div><!-- End Help Box -->
           </div>
 
-          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-            <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
-            <h3>Temporibus et in vero dicta aut eius lidero plastis trand lined voluptas dolorem ut voluptas</h3>
-            <p>
-              Blanditiis voluptate odit ex error ea sed officiis deserunt. Cupiditate non consequatur et doloremque consequuntur. Accusantium labore reprehenderit error temporibus saepe perferendis fuga doloribus vero. Qui omnis quo sit. Dolorem architecto eum et quos deleniti officia qui.
-            </p>
-            <ul>
-              <li><i class="bi bi-check-circle"></i> <span>Aut eum totam accusantium voluptatem.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Assumenda et porro nisi nihil nesciunt voluptatibus.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea</span></li>
-            </ul>
-            <p>
-              Est reprehenderit voluptatem necessitatibus asperiores neque sed ea illo. Deleniti quam sequi optio iste veniam repellat odit. Aut pariatur itaque nesciunt fuga.
-            </p>
-            <p>
-              Sunt rem odit accusantium omnis perspiciatis officia. Laboriosam aut consequuntur recusandae mollitia doloremque est architecto cupiditate ullam. Quia est ut occaecati fuga. Distinctio ex repellendus eveniet velit sint quia sapiente cumque. Et ipsa perferendis ut nihil. Laboriosam vel voluptates tenetur nostrum. Eaque iusto cupiditate et totam et quia dolorum in. Sunt molestiae ipsum at consequatur vero. Architecto ut pariatur autem ad non cumque nesciunt qui maxime. Sunt eum quia impedit dolore alias explicabo ea.
-            </p>
+          <!-- Service details content -->
+          <div class="col-lg-8 ps-lg-5" data-aos="fade-up" data-aos-delay="200">
+            <div class="tab-content" id="service-tabs-content">
+
+              <!-- Branding Service -->
+              <div class="tab-pane fade show active" id="branding" role="tabpanel">
+                <img src="assets/img/services/brending.jpg" alt="" class="img-fluid services-img">
+                <h3>ბრენდინგი</h3>
+
+                <p>
+                  ბრენდინგი ბევრად მეტია, ვიდრე ლოგო, ფერები ან კომპანიის სახელი – ეს არის ბიზნესის იდენტობა, რომელიც
+                  მომხმარებლის აღქმას, ემოციებსა და ქცევას განსაზღვრავს. წარმატებული ბრენდინგი არა მხოლოდ განსხვავებს
+                  კომპანიას კონკურენტებისგან, არამედ ქმნის ღირებულებებს, აღძრავს ემოციებს და მომხმარებელს თქვენი
+                  ბრენდისადმი ერთგულებას უღვივებს.
+                </p>
+
+                <h5>რატომ არის ბრენდინგი ბიზნესისთვის კრიტიკულად მნიშვნელოვანი?</h5>
+                <p>ბრენდინგი ბაზარზე წარმატების საფუძველია. ის აყალიბებს კომპანიის იმიჯს, ქმნის ნდობას და ზრდის
+                  ლოიალურობას. ეფექტური ბრენდინგი გეხმარებათ:</p>
+
+                <ul>
+                  <li><i class="bi bi-check-circle"></i> მომხმარებლის ყურადღების მიპყრობაში პირველი
+                    შთაბეჭდილება გადამწყვეტია, და მომხიბვლელი, უნიკალური და ზუსტად გათვლილი ვიზუალი მყისიერად იპყრობს
+                    აუდიტორიის ყურადღებას.</li>
+                  <li><i class="bi bi-check-circle"></i>ემოციური კავშირის ჩამოყალიბებაში ბრენდი არ
+                    უნდა იყოს მხოლოდ „სახელი“ მას უნდა გააჩნდეს ისტორია, ღირებულებები და ემოციური დატვირთვა, რომელიც
+                    მომხმარებლისთვის ახლობელი გახდება.</li>
+                  <li><i class="bi bi-check-circle"></i> ბაზარზე გამორჩეულობის მიღწევაში კონკურენცია
+                    ნებისმიერ სფეროში მაღალია, და მხოლოდ ის ბრენდები, რომლებიც გამორჩეული იდენტობითა და მკაფიო მესიჯებით
+                    წარმოაჩენენ საკუთარ თავს, აღწევენ რეალურ წარმატებას.</li>
+                  <li><i class="bi bi-check-circle"></i>გაყიდვების სტიმულირებაში ხარისხიანი
+                    ბრენდინგი მომხმარებელს აძლევს მიზეზს, აირჩიოს თქვენი პროდუქტი ან მომსახურება კონკურენტების ნაცვლად.
+                  </li>
+                </ul>
+
+                <h5>როგორ ვქმნით ბრენდს BLUMBL-ში?</h5>
+                <p>BLUMBL-ში ბრენდინგს არ ვუყურებთ, როგორც მხოლოდ ვიზუალურ მხარეს ჩვენ ვქმნით მთლიან კონცეფციას,
+                  რომელიც თქვენს ბიზნესს ზრდისა და წარმატების საშუალებას მისცემს. ჩვენი მიდგომა მოიცავს:</p>
+
+                <ul>
+                  <li><i class="bi bi-check-circle"></i> სტრატეგიულ დაგეგმარებას ვიკვლევთ ბაზარს,
+                    მომხმარებელთა ქცევას და ტენდენციებს, რათა შევქმნათ ბრენდი, რომელიც რეალურად მიაღწევს შედეგს.</li>
+                  <li><i class="bi bi-check-circle"></i> ვიზუალური იდენტობის განვითარებას უნიკალური
+                    ლოგოს, ფერების, ტიპოგრაფიის და დიზაინის ელემენტების შერჩევას, რომელიც ასახავს კომპანიის ხასიათს.
+                  </li>
+                  <li><i class="bi bi-check-circle"></i> ბრენდის მესიჯებისა და ტონის განსაზღვრას
+                    ვქმნით ბრენდის კომუნიკაციის სტილს, რომელიც თითოეულ მომხმარებელთან სწორი გზით იმუშავებს.</li>
+                  <li><i class="bi bi-check-circle"></i> ბრენდის ისტორიას და კონტენტს რადგან ძლიერი
+                    ბრენდი მხოლოდ ვიზუალით არ იქმნება, ჩვენ ვქმნით მნიშვნელოვან ისტორიებს, ნარატივებსა და სარეკლამო
+                    კონტენტს, რომელიც მომხმარებელს გაუღვივებს ემოციებს და ნდობას.</li>
+                  <li><i class="bi bi-check-circle"></i> მომხმარებლის გამოცდილების ფორმირებას ბრენდი
+                    უნდა იყოს ინტუიციური, მომხმარებელზე ორიენტირებული და ადვილად დასამახსოვრებელი.</li>
+                </ul>
+
+                <h5> რატომ უნდა აირჩიოთ BLUMBL ბრენდინგისთვის?</h5>
+                <p>ჩვენ არ ვქმნით უბრალოდ ლოგოებს ჩვენ ვქმნით ბრენდს, რომელიც ცოცხლობს, იზრდება და წარმატებას აღწევს.
+                </p>
+
+                <ul>
+                  <li><i class="bi bi-check-circle"></i> ინდივიდუალური მიდგომა ყოველი ბრენდი
+                    უნიკალურია, ამიტომ სტრატეგია სრულად მორგებულია თქვენს ბიზნესზე.</li>
+                  <li><i class="bi bi-check-circle"></i> ინოვაციური დიზაინი და კონცეფციები
+                    თანამედროვე ტრენდებსა და შემოქმედებითობას ვაერთიანებთ, რათა ბრენდი ნამდვილად გამორჩეული და
+                    დასამახსოვრებელი იყოს.</li>
+                  <li><i class="bi bi-check-circle"></i> ბიზნესის ზრდაზე ორიენტირება ჩვენი მიზანია
+                    არა მხოლოდ ლამაზი ვიზუალი, არამედ ეფექტური ბრენდინგი, რომელიც რეალურად ზრდის გაყიდვებს და
+                    მომხმარებელთა ჩართულობას.</li>
+                </ul>
+
+                <p>BLUMBL-სთან ერთად, თქვენი ბრენდი გახდება ბაზარზე ძლიერი, სტაბილური და წარმატებული!</p>
+
+              </div><!-- End Branding Tab -->
+
+
+              <!-- Social Media Marketing -->
+              <div class="tab-pane fade" id="social-media" role="tabpanel">
+                <img src="assets/img/services/smm.jpg" alt="" class="img-fluid services-img">
+                <h3>სოციალური მედიის მარკეტინგი</h3>
+
+                <p>
+                  ციფრული ეპოქაში სოციალური მედიის მარკეტინგი (SMM) გახდა ბრენდის ერთ-ერთი ყველაზე ძლიერი და გავლენიანი
+                  ინსტრუმენტი, რომელიც მომხმარებელთან უშუალო კავშირისა და ბიზნესის განვითარების შეუცვლელ საშუალებას
+                  წარმოადგენს. ის არ არის მხოლოდ პოსტების გამოქვეყნება ეს არის კომპლექსური სტრატეგია, რომელიც მიზნად
+                  ისახავს ბრენდის ცნობადობის ამაღლებას, მომხმარებლის ნდობის გაძლიერებას და, საბოლოოდ, გაყიდვების
+                  მაქსიმიზაციას.
+                </p>
+
+                <h5>რატომ არის სოციალური მედიის მარკეტინგი აუცილებელი?</h5>
+                <p>დღეს მომხმარებლები სოციალურ ქსელებში ატარებენ დღის მნიშვნელოვან ნაწილს, სწორედ ამიტომ, ბიზნესისთვის
+                  კრიტიკულად მნიშვნელოვანია ამ სივრცეში აქტიური და პროფესიონალურად წარმართული კომუნიკაცია. სოციალური
+                  მედიის მარკეტინგი გთავაზობთ შეუზღუდავ შესაძლებლობებს თქვენი ბრენდის წინსვლისთვის:</p>
+
+                <ul>
+                  <li><i class="bi bi-check-circle"></i> ბრენდის ცნობადობის გაზრდა სწორი კონტენტის,
+                    ვირუსული პოსტებისა და კამპანიების მეშვეობით თქვენი სახელი უფრო მეტ ადამიანს მიაწვდინოთ.</li>
+                  <li><i class="bi bi-check-circle"></i> მომხმარებელთან ინტერაქცია კომენტარები,
+                    მესიჯები და რეაქციები პირდაპირი კავშირის საშუალებაა, რომელიც ზრდის ნდობასა და ერთგულებას.</li>
+                  <li><i class="bi bi-check-circle"></i> შედეგებზე ორიენტირებული რეკლამა სოციალური
+                    მედიის პლატფორმების მოწინავე ალგორითმები გეხმარებათ სწორ აუდიტორიას მიაწვდინოთ თქვენი შეტყობინება,
+                    რაც ამცირებს არასასურველ ხარჯებს და ზრდის კონვერსიებს.</li>
+                  <li><i class="bi bi-check-circle"></i> მონაცემებზე დაფუძნებული სტრატეგია ანალიტიკა
+                    და A/B ტესტირება საშუალებას გაძლევთ გაიგოთ, რა მუშაობს უკეთესად და მუდმივად განავითაროთ თქვენი
+                    სარეკლამო კამპანიები.</li>
+                  <li><i class="bi bi-check-circle"></i> გაყიდვების სტიმულირება სოციალური მედია არა
+                    მხოლოდ ცნობადობას ზრდის, არამედ მომხმარებელს პირდაპირ მიჰყავს პროდუქტის შეძენამდე.</li>
+                </ul>
+
+                <h5>როგორ ვმართავთ ჩვენ სოციალურ მედიის მარკეტინგს?</h5>
+                <p>BLUMBL-ში ჩვენ ვქმნით გუნდზე მორგებულ და ინდივიდუალურად დაგეგმილ სტრატეგიებს, რომლებიც ბიზნესს
+                  სწრაფად და ეფექტურად ავითარებს. ჩვენი მრავალმხრივი და კრეატიული მიდგომა მოიცავს:</p>
+
+                <ul>
+                  <li><i class="bi bi-check-circle"></i> ინოვაციური და ვიზუალურად მიმზიდველი კონტენტის
+                      შექმნას ბრენდის ხასიათთან და აუდიტორიასთან შესაბამისი ტექსტური და ვიზუალური მასალის
+                    დამუშავებას.</li>
+                  <li><i class="bi bi-check-circle"></i> მიზნობრივი რეკლამირების წარმართვას სოციალური
+                    ქსელების მოწინავე ალგორითმების გამოყენებას, რათა თქვენი პროდუქტები და სერვისები ზუსტად იმ
+                    ადამიანებამდე მივიდეს, ვისაც ისინი სჭირდება.</li>
+                  <li><i class="bi bi-check-circle"></i> ჩართულობის გაზრდას მომხმარებელთან მუდმივი
+                    კომუნიკაციის უზრუნველყოფას, რომ მათ გაუჩნდეთ ნდობა და ლოიალობა ბრენდის მიმართ.</li>
+                  <li><i class="bi bi-check-circle"></i> ანალიტიკისა და შედეგების მონიტორინგს
+                    მონაცემების ღრმა ანალიზსა და სტრატეგიის მუდმივ ოპტიმიზაციას.</li>
+                  <li><i class="bi bi-check-circle"></i> ტრენდებზე რეაგირებას უახლესი ტენდენციების
+                    გათვალისწინებას და მათი ბიზნესისთვის სასარგებლოდ გამოყენებას.</li>
+                </ul>
+
+                <h5>რატომ უნდა აირჩიოთ BLUMBL?</h5>
+                <p>ჩვენი გუნდი შედეგებზეა ორიენტირებული – ჩვენ არ ვმუშაობთ უბრალოდ პოსტების განთავსებით, არამედ ვქმნით
+                  ძლიერ ციფრულ მარკეტინგულ სტრატეგიებს, რომლებიც ბიზნესის რეალურ ზრდას უზრუნველყოფს.</p>
+
+                <ul>
+                  <li><i class="bi bi-check-circle"></i> დეტალურად გაანალიზებული და სტრატეგიულად
+                      გათვლილი</strong></li>
+                  <li><i class="bi bi-check-circle"></i> კრეატიული, ინოვაციური და ეფექტური</strong></li>
+                  <li><i class="bi bi-check-circle"></i> ბიზნესზე მორგებული და კონკრეტული მიზნებისკენ
+                      მიმართული</strong></li>
+                </ul>
+
+                <p>BLUMBL-სთან ერთად, თქვენი ბრენდი მიიღებს არა მხოლოდ ცნობადობას, არამედ აქტიურ, ერთგულ მომხმარებელთა
+                  ბაზას და ზრდის ახალ შესაძლებლობებს!</p>
+
+              </div><!-- End Social Media Tab -->
+
+
+              <!-- Web Design -->
+              <div class="tab-pane fade" id="web-design" role="tabpanel">
+                <img src="assets/img/services/web.jpg" alt="" class="img-fluid services-img">
+                <h3>ვებსაიტების დამზადება</h3>
+                <p>
+                  თანამედროვე და ფუნქციური ვებსაიტების შექმნა, ოპტიმიზაცია და მხარდაჭერა.
+                </p>
+              </div><!-- End Web Design Tab -->
+
+              <!-- Graphic Design -->
+              <div class="tab-pane fade" id="graphic-design" role="tabpanel">
+                <img src="assets/img/services/graphic.jpg" alt="" class="img-fluid services-img">
+                <h3>გრაფიკული დიზაინი</h3>
+                <p>
+                  კრეატიული და პროფესიონალური დიზაინის შექმნა ბრენდებისთვის.
+                </p>
+              </div><!-- End Graphic Design Tab -->
+
+              <!-- Event Management -->
+              <div class="tab-pane fade" id="events" role="tabpanel">
+                <img src="assets/img/services/event.jpg" alt="" class="img-fluid services-img">
+                <h3>ივენთების ორგანიზება</h3>
+                <p>
+                  ღონისძიებების და კამპანიების დაგეგმვა, მართვა და განხორციელება.
+                </p>
+              </div><!-- End Event Management Tab -->
+
+            </div><!-- End Tab Content -->
           </div>
 
-        </div>
+        </div><!-- End Row -->
+      </div><!-- End Container -->
 
-      </div>
 
     </section><!-- /Service Details Section -->
 
@@ -153,39 +344,40 @@
         <div class="row gy-4">
           <div class="col-lg-4 col-md-6 footer-about">
             <a href="index.html" class="logo d-flex align-items-center">
-              <span class="sitename">HeroBiz</span>
+              <span class="sitename">BLUMBL</span>
             </a>
             <div class="footer-contact pt-3">
-              <p>A108 Adam Street</p>
-              <p>New York, NY 535022</p>
-              <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-              <p><strong>Email:</strong> <span>info@example.com</span></p>
+              <p>დადიანის ქ. 24</p>
+              <p>თბილისი, საქართველო</p>
+              <p class="mt-3">Phone:</strong> <a class="contact-number" href="tel:+995568985737">+995 568 985
+                  737</a></p>
+              <p>Email:</strong> <a href="mailto:info@blumbl.ge">info@blumbl.ge</a></p>
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Useful Links</h4>
+          <div class="col-lg-4 col-md-3 footer-links">
+            <h4>სასარგებლო ლინკები</h4>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Terms of service</a></li>
-              <li><a href="#">Privacy policy</a></li>
+              <li><a href="#">მთავარი</a></li>
+              <li><a href="#">ჩვენს შესახებ</a></li>
+              <li><a href="#">სერვისები</a></li>
+              <li><a href="#">ბლოგი</a></li>
+              <li><a href="#">კონტაქტი</a></li>
             </ul>
           </div>
 
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Our Services</h4>
+          <div class="col-lg-4 col-md-3 footer-links">
+            <h4>სერვისები</h4>
             <ul>
-              <li><a href="#">Web Design</a></li>
-              <li><a href="#">Web Development</a></li>
-              <li><a href="#">Product Management</a></li>
-              <li><a href="#">Marketing</a></li>
-              <li><a href="#">Graphic Design</a></li>
+              <li><a href="#">ბრენდინგი</a></li>
+              <li><a href="#">სოციალური მედია მარკეტინგი</a></li>
+              <li><a href="#">გრაფიკული დიზაინი</a></li>
+              <li><a href="#">ვებსაიტების დამზადება</a></li>
+              <li><a href="#">ივენთების ორგანიზება</a></li>
             </ul>
           </div>
 
-          <div class="col-lg-2 col-md-3 footer-links">
+          <!-- <div class="col-lg-2 col-md-3 footer-links">
             <h4>Hic solutasetp</h4>
             <ul>
               <li><a href="#">Molestiae accusamus iure</a></li>
@@ -205,26 +397,21 @@
               <li><a href="#">Trodelas</a></li>
               <li><a href="#">Flexo</a></li>
             </ul>
-          </div>
+          </div> -->
 
         </div>
       </div>
     </div>
 
     <div class="copyright text-center">
-      <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
+      <div
+        class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
 
         <div class="d-flex flex-column align-items-center align-items-lg-start">
           <div>
-            © Copyright <strong><span>MyWebsite</span></strong>. All Rights Reserved
+            © Copyright <span>blumbl.ge</span></strong>. All Rights Reserved
           </div>
-          <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-          </div>
+
         </div>
 
         <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
@@ -240,7 +427,8 @@
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
