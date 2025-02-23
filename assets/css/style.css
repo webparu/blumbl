@@ -2262,6 +2262,60 @@ section,
 .blog-details {
   padding-bottom: 30px;
 }
+.blog-details .meta-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.blog-details .meta-top ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+.blog-details .meta-top ul li + li {
+  margin-left: 20px;
+}
+.blog-details .meta-top i {
+  font-size: 16px;
+  margin-right: 8px;
+  line-height: 0;
+  color: color-mix(in srgb, #1a1f24, transparent 40%);
+}
+.blog-details .meta-top a {
+  color: color-mix(in srgb, #1a1f24, transparent 40%);
+  font-size: 14px;
+  display: inline-block;
+  line-height: 1;
+}
+.blog-details .meta-bottom {
+  padding-top: 10px;
+  border-top: 1px solid color-mix(in srgb, #1a1f24, transparent 90%);
+  display: flex;
+}
+.blog-details .meta-bottom i {
+  color: color-mix(in srgb, #1a1f24, transparent 40%);
+  display: inline;
+  margin-right: 8px;
+}
+.blog-details .meta-bottom .cats {
+  list-style: none;
+  display: inline;
+  padding: 0 20px 0 0;
+  font-size: 14px;
+}
+.blog-details .meta-bottom .tags {
+  list-style: none;
+  display: inline;
+  padding: 0;
+  font-size: 14px;
+}
+.blog-details .meta-bottom .tags li {
+  display: inline-block;
+}
 .blog-details .article {
   background-color: #ffffff;
   padding: 30px;
@@ -2289,9 +2343,8 @@ section,
 .blog-details .content blockquote {
   overflow: hidden;
   background-color: color-mix(in srgb, #1a1f24, transparent 95%);
-  padding: 60px;
+  padding: 50px;
   position: relative;
-  text-align: center;
   margin: 20px 0;
 }
 .blog-details .content blockquote p {
