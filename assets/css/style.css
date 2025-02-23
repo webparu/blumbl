@@ -2316,6 +2316,23 @@ section,
 .blog-details .meta-bottom .tags li {
   display: inline-block;
 }
+.blog-details .redBig {
+  color: #e11111;
+  font-size: 20px;
+  font-family: "BPG Nino Elite Exp Caps", sans-serif;
+}
+.blog-details .textRed {
+  color: #e11111;
+  font-style: italic;
+}
+.blog-details .textRed i {
+  padding-right: 10px;
+}
+.blog-details .greenBig {
+  color: #0f9d58;
+  font-size: 20px;
+  font-family: "BPG Nino Elite Exp Caps", sans-serif;
+}
 .blog-details .article {
   background-color: #ffffff;
   padding: 30px;
@@ -2365,6 +2382,18 @@ section,
   background-color: #10494f;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+.blog-details .content blockquote ul {
+  list-style: none;
+  padding: 0;
+}
+.blog-details .content blockquote ul li {
+  padding-bottom: 10px;
+}
+.blog-details .content blockquote ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #ff8c41;
 }
 
 /*--------------------------------------------------------------
